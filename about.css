@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h3 {
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #f1c40f;
+}
+
+/* Section Styles */
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+section ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+strong {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Container Styles */
+.container {
+  max-width: 960px;
+}
+
+/* Add some spacing between sections */
+.my-5 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Text Centering */
+.text-center {
+  text-align: center;
+}
+
+/* Make the text bold */
+.fw-bold {
+  font-weight: bold;
+}
+
+/* Make the text semi-bold */
+.fw-semibold {
+  font-weight: 600;
+}
